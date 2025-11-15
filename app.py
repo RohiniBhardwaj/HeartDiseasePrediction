@@ -3,8 +3,8 @@ import joblib
 import numpy as np
 
 # Load trained model + scaler
-model = joblib.load("best_model.joblib")
-scaler = joblib.load("scaler.joblib")
+model = joblib.load("models/best_model.joblib")
+scaler = joblib.load("models/scaler.joblib")
 
 st.title("❤️ Heart Disease Prediction App")
 st.write("Enter patient details to predict heart disease presence.")
